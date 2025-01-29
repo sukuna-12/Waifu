@@ -37,7 +37,7 @@ async def start(update: Update, context: CallbackContext) -> None:
 
 
 
-ᴡʜᴏ ᴀᴍ ɪ - ɪ'ᴍ*** [˹𝐆ʀᴀʙʙɪɴɢ 𝐘ᴏᴜʀ 𝐖ᴀɪғᴜ˼](https://t.me/ntpcraj)
+ᴡʜᴏ ᴀᴍ ɪ - ɪ'ᴍ*** [˹𝐘ᴏᴜʀ 𝐖ᴀɪғᴜ 𝐁ᴏᴛ˼](https://t.me/notyourtypeGod)
 
 ***◈ ━━━━━━━━ ● ━━━━━━━━ ◈
 
@@ -101,7 +101,7 @@ async def button(update: Update, context: CallbackContext) -> None:
 
 
 
-ᴡʜᴏ ᴀᴍ ɪ - ɪ'ᴍ*** [˹𝐆ᴜᴇss 𝐘ᴏᴜʀ 𝐖ᴀɪғᴜ˼](https://t.me/ntpcraj)
+ᴡʜᴏ ᴀᴍ ɪ - ɪ'ᴍ*** [˹𝐘ᴏᴜʀ 𝐖ᴀɪғᴜ 𝐁ᴏᴛ˼](https://t.me/notyourtypeGod)
 
 ***◈ ━━━━━━━━ ● ━━━━━━━━ ◈
 
