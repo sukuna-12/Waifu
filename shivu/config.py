@@ -7,7 +7,7 @@ class Config(object):
     GROUP_ID = -1002133191051
     TOKEN = "7589023976:AAFerTqtgkPEhmNsAU_5XOFtBaTcd7g-3EE"
     mongo_url = "mongodb+srv://surajgod112:surajgod113@cluster0.v52wo.mongodb.net/"
-    PHOTO_URL = ["https://graph.org/file/40d3df88f6d827ff48af5-9e72ee221223e291ed.jpg", "https://graph.org/file/40d3df88f6d827ff48af5-9e72ee221223e291ed.jpg"]
+    PHOTO_URL = ["https://graph.org/file/09e83a1d89aceabd480c5-2afc46a31083fe23f2.jpg", "https://graph.org/file/0aa659508c1add9ae4c86-2b335aa5262b7b64d2.jpg"]
     SUPPORT_CHAT = "notyourtypeGod"
     UPDATE_CHAT = "waifubotdjk"
     BOT_USERNAME = "Waifugrab17bot"
