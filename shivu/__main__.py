@@ -224,7 +224,20 @@ async def fav(update: Update, context: CallbackContext) -> None:
         return
 
     
-    user['favorites'] = [character_id]
+    # Create inline buttons for confirmation
+    buttons = [
+        [InlineKeyboardButton("Yes", callback_data=f"yes_{character_id}"), 
+         InlineKeyboardButton("No", callback_data=f"no_{character_id}")]
+    ]
+    reply_markup = InlineKeyboardMarkup(buttons)
+
+    # Send message with buttons and waifu details
+    await update.message.reply_photo(
+        photo=character["img_url"],
+        caption=f"<b>Do you want to make this waifu your favorite..!</b>\n↬ <code>{character['name']}</code> <code>({character['anime']})</code>",
+        reply_markup=reply_markup,
+        parse_mode='HTML'
+    )
 
     
     await user_collection.update_one({'id': user_id}, {'$set': {'favorites': user['favorites']}})
