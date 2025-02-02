@@ -57,12 +57,12 @@ async def trade(client, message):
     
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("Confirm Trade", callback_data="confirm_trade")],
-            [InlineKeyboardButton("Cancel Trade", callback_data="cancel_trade")]
+            [InlineKeyboardButton("Confirm Trade✅", callback_data="confirm_trade")],
+            [InlineKeyboardButton("Cancel Trade❌", callback_data="cancel_trade")]
         ]
     )
 
-    await message.reply_text(f"{message.reply_to_message.from_user.mention}, do you accept this trade?", reply_markup=keyboard)
+    await message.reply_text(f"{message.reply_to_message.from_user.mention}, 𝐝𝐨 𝐘𝐨𝐮 𝐚𝐜𝐜𝐞𝐩𝐭 𝐭𝐡𝐢𝐬 𝐭𝐫𝐚𝐝𝐞 🧩?", reply_markup=keyboard)
 
 
 @shivuu.on_callback_query(filters.create(lambda _, __, query: query.data in ["confirm_trade", "cancel_trade"]))
