@@ -33,7 +33,8 @@ async def buy(update, context):
         "🎗️ Legendary": 1500000,
         "💮 Mythical": 20000000,
         "🔮 Limited Edition": 300000000,
-        "🫧 Premium": 400000000000,
+        "🫧 Premium": 400000000000, 
+    }
         
 
     rarity = character.get('rarity', 'Unknown Rarity')
