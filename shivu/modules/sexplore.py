@@ -1,10 +1,10 @@
 import random
 from telegram.ext import CommandHandler, CallbackContext
-from Grabber import application, user_collection
+from shivu import application, user_collection
 from datetime import datetime, timedelta
 
 # Define a cooldown duration in seconds (1 minute in this case)
-COOLDOWN_DURATION = 73
+COOLDOWN_DURATION = 30
 COMMAND_BAN_DURATION = 600  # Set the ban duration in seconds (10 minutes)
 
 # Create a dictionary to store the last command time and the command count for each user
