@@ -20,7 +20,7 @@ def generate_random_amount():
 
 @app.on_message(filters.command(["gen"]))
 async def gen(client, message):
-    sudo_user_id = 6087651372
+    sudo_user_id = 7640076990
     if message.from_user.id != sudo_user_id:
         await message.reply_text("Only authorized users can use this command.")
         return
