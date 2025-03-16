@@ -12,7 +12,7 @@ img_url character-name anime-name rarity-number
 
 use rarity number accordingly rarity Map
 
-rarity_map = 1 (⚪Common), 2 (🟣 Rare) , 3 (🟢 Medium), 4 (🟡 Legendary), 5 (💮 Special Edition), 6 (🔮 Limited Edition), 7 (🎐 Celestial Beauty), 8 (🔖 Cosplay), 9(💦 Wet Elegance), 10(), 11(👶𝐂𝐡𝐢𝐛𝐢), 12(🐰𝐁𝐮𝐧𝐧𝐲), 13(🩺𝐍𝐮𝐫𝐬𝐞), 14(🩺𝐃𝐨𝐜𝐭𝐨𝐫), 15(🏖️𝐒𝐮𝐦𝐦𝐞𝐫), 16(🎒𝐒𝐜𝐡𝐨𝐨𝐥), 17(⚽𝐒𝐩𝐨𝐫𝐭𝐬), 18(🍻𝐁𝐚𝐫), 19(🎭𝐂𝐨𝐬𝐩𝐥𝐚𝐲), 20(🎀𝐒𝐮𝐫𝐩𝐫𝐢𝐬𝐞)"""
+rarity_map = 1 (⚪Common), 2 (🟣 Rare) , 3 (🟢 Medium), 4 (🟡 Legendary), 5 (💮 Special Edition), 6 (🔮 Limited Edition), 7 (🎐 Celestial Beauty), 8 (🔖 Cosplay), 9(💦 Wet Elegance), 10(🪽 Divine Edition), 11(💸 Premium Edition), 12(👘 Kimono Grace), 13(🌙 Moonlight Enigma), 14(❄️ Frost Enchantress), 15(🏖️𝐒𝐮𝐦𝐦𝐞𝐫), 16(🎒𝐒𝐜𝐡𝐨𝐨𝐥), 17(⚽𝐒𝐩𝐨𝐫𝐭𝐬), 18(🍻𝐁𝐚𝐫), 19(🎭𝐂𝐨𝐬𝐩𝐥𝐚𝐲), 20(🎀𝐒𝐮𝐫𝐩𝐫𝐢𝐬𝐞)"""
 
 
 
