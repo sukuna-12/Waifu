@@ -9,7 +9,7 @@ class Config(object):
     mongo_url = "mongodb+srv://naruto:hinatababy@cluster0.rqyiyzx.mongodb.net/"
     PHOTO_URL = ["https://graph.org/file/09e83a1d89aceabd480c5-2afc46a31083fe23f2.jpg", "https://graph.org/file/0aa659508c1add9ae4c86-2b335aa5262b7b64d2.jpg"]
     SUPPORT_CHAT = "Anime_Circle_Club"
-    UPDATE_CHAT = "waifubotdjk"
+    UPDATE_CHAT = "Waifu_Chan_Bot_updates"
     BOT_USERNAME = "@Waifu_Chan_Robot"
     CHARA_CHANNEL_ID = "-1002640379822"
     api_id = 28480539
