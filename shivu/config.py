@@ -12,8 +12,8 @@ class Config(object):
     UPDATE_CHAT = "waifubotdjk"
     BOT_USERNAME = "Waifugrab17bot"
     CHARA_CHANNEL_ID = "-1002374252364"
-    api_id = 29830137
-    api_hash = "4fdb6b13530915e7b513ee4318f109b9"
+    api_id = 28480539
+    api_hash = "6320d9f1bc1f0b72ad66ebdb9d6bfc2c"
 
     
 class Production(Config):
