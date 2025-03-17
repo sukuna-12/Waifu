@@ -52,7 +52,7 @@ async def upload(update: Update, context: CallbackContext) -> None:
         try:
             rarity = rarity_map[int(args[3])]
         except KeyError:
-            await update.message.reply_text('Invalid rarity. Please use 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.')
+            await update.message.reply_text('Invalid rarity. Please use 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23.')
             return
 
         id = str(await get_next_sequence_number('character_id')).zfill(2)
