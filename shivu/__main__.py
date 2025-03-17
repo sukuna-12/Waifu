@@ -293,7 +293,7 @@ def main() -> None:
     """Run bot."""
    
     
-    application.add_handler(CommandHandler(["waifu"], guess))
+    application.add_handler(CommandHandler(["seal"], guess))
     application.add_handler(CommandHandler('set_on', set_on))
     application.add_handler(CommandHandler('set_off', set_off))
     application.add_handler(MessageHandler(filters.ALL, message_counter))
