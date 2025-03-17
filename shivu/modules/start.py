@@ -81,7 +81,7 @@ async def button(update: Update, context: CallbackContext) -> None:
         help_text = """
     ***Help Section :***
     
-***/guess - to guess character (only works in group)***
+***/waifu - to guess character (only works in group)***
 ***/fav - add your fav***
 ***/trade - to trade character***
 ***/gift - give any character from***
