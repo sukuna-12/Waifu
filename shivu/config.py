@@ -10,7 +10,7 @@ class Config(object):
     PHOTO_URL = ["https://graph.org/file/09e83a1d89aceabd480c5-2afc46a31083fe23f2.jpg", "https://graph.org/file/0aa659508c1add9ae4c86-2b335aa5262b7b64d2.jpg"]
     SUPPORT_CHAT = "notyourtypeGod"
     UPDATE_CHAT = "waifubotdjk"
-    BOT_USERNAME = "Waifugrab17bot"
+    BOT_USERNAME = "@Waifu_Chan_Robot"
     CHARA_CHANNEL_ID = "-1002374252364"
     api_id = 28480539
     api_hash = "6320d9f1bc1f0b72ad66ebdb9d6bfc2c"
