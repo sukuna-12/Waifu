@@ -85,7 +85,7 @@ async def send_image(update: Update, context: CallbackContext) -> None:
         chat_id=chat_id,
         photo=character['img_url'],
         caption=f"""***{character['rarity'][0]} ʟᴏᴏᴋ ᴀ ᴡᴀɪғᴜ ʜᴀꜱ ꜱᴘᴀᴡɴᴇᴅ !! ᴍᴀᴋᴇ ʜᴇʀ ʏᴏᴜʀ'ꜱ ʙʏ ɢɪᴠɪɴɢ  
-        /sealwaifu 𝚆𝚊𝚒𝚏𝚞 𝚗𝚊𝚖𝚎***""",
+        /grab 𝚆𝚊𝚒𝚏𝚞 𝚗𝚊𝚖𝚎***""",
         parse_mode='Markdown'
     )
 
@@ -217,7 +217,7 @@ async def handle_no(update: Update, context: CallbackContext) -> None:
 
 def main() -> None:
     """Run bot."""
-    application.add_handler(CommandHandler(["sealwaifu"], guess, block=False))
+    application.add_handler(CommandHandler(["grab"], guess, block=False))
     application.add_handler(CommandHandler('fav', fav))
     application.add_handler(CallbackQueryHandler(handle_yes, pattern="yes_*"))
     application.add_handler(CallbackQueryHandler(handle_no, pattern="no_*"))
